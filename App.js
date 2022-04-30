@@ -1,5 +1,3 @@
-# App.js----
-
 import * as React from 'react';
 import { WebView } from 'react-native-webview';
 import { StyleSheet } from 'react-native';
