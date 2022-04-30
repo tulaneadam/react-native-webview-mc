@@ -1,8 +1,16 @@
 {
   "expo": {
-    "name": "testmc",
-    "slug": "snack-e0abb774-75c2-4b26-a4ea-cad266b7bfda",
+    "name": "Your App Name",
     "version": "1.0.0",
+    "slug": "your-app-slug",
+    "ios": {
+      "bundleIdentifier": "com.startupsystems.moviecriticapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.startupsystems.moviecriticapp",
+      "versionCode": 1
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -16,18 +24,8 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "description": "testmc"
+    }
   }
 }
