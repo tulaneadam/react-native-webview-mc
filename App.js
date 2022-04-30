@@ -1,15 +1,22 @@
-import React, { Component } from 'react';
-import { SafeAreaView } from "react-native";
-import { WebView } from 'react-native-webview';
+# App.js----
 
+import * as React from 'react';
+import { WebView } from 'react-native-webview';
+import { StyleSheet } from 'react-native';
+import Constants from 'expo-constants';
 
 export default function App() {
-    return (
-      <SafeAreaView style={{ flex: 1 }}>
-        <WebView 
-          source={{ uri: 'https://moviecriticapp.com/' }} 
-        />
-      </SafeAreaView>
-    );
-
+  return (
+    <WebView 
+      style={styles.container}
+      source={{ uri: 'https://moviecriticapp.com' }}
+    />
+  );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: Constants.statusBarHeight,
+  },
+});
