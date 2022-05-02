@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Your App Name",
+    "name": "MovieCritic",
     "version": "1.0.0",
-    "slug": "your-app-slug",
+    "slug": "moviecriticapp",
     "ios": {
       "bundleIdentifier": "com.startupsystems.moviecriticapp",
       "buildNumber": "1.0.0"
