@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "MovieCritic",
+    "name": "Your App Name",
     "version": "1.0.0",
-    "slug": "moviecriticapp",
+    "slug": "your-app-slug",
     "ios": {
-      "bundleIdentifier": "com.startupsystems.moviecriticapp2",
+      "bundleIdentifier": "com.startupsystems.moviecriticapp",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.startupsystems.moviecriticapp2",
+      "package": "com.startupsystems.moviecriticapp",
       "versionCode": 1
     },
     "orientation": "portrait",
