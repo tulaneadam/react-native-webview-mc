@@ -12,7 +12,7 @@
     },
     "android": {
       "package": "com.startupsystems.moviecriticapp2",
-      "permissions": [ "CAMERA", "WRITE_EXTERNAL_STORAGE", "CAMERA_ROLL" ],
+      "permissions": [  ],
       "versionCode": 2
     },
     "orientation": "portrait",
