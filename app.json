@@ -5,10 +5,14 @@
     "slug": "moviecriticapp2",
     "ios": {
       "bundleIdentifier": "com.startupsystems.moviecriticapp2",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let user put a photo in his profile page."
+      }
     },
     "android": {
       "package": "com.startupsystems.moviecriticapp2",
+      "permissions": [ "CAMERA", "WRITE_EXTERNAL_STORAGE", "CAMERA_ROLL" ],
       "versionCode": 2
     },
     "orientation": "portrait",
@@ -29,3 +33,4 @@
     }
   }
 }
+
