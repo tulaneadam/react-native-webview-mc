@@ -4,16 +4,16 @@
     "version": "1.0.0",
     "slug": "moviecriticapp2",
     "ios": {
-      "bundleIdentifier": "com.startupsystems.moviecriticapp2",
+      "bundleIdentifier": "com.startupsystems.moviecriticapp4",
       "buildNumber": "1.0.0",
       "infoPlist": {
     
       }
     },
     "android": {
-      "package": "com.startupsystems.moviecriticapp2",
+      "package": "com.startupsystems.moviecriticapp4",
       "permissions": [  ],
-      "versionCode": 3
+      "versionCode": 4
     },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
