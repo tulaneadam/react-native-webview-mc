@@ -7,7 +7,7 @@
       "bundleIdentifier": "com.startupsystems.moviecriticapp2",
       "buildNumber": "1.0.0",
       "infoPlist": {
-        "NSCameraUsageDescription": "This app uses the camera to let user put a photo in his profile page."
+    
       }
     },
     "android": {
