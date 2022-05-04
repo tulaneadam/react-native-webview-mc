@@ -12,7 +12,7 @@
     },
     "android": {
       "package": "com.startupsystems.moviecriticapp4",
-      "permissions": [ "RECORD_AUDIO" ],
+      "permissions": [ "RECORD_AUDIO", "INTERNET" ],
       "versionCode": 5
     },
     "orientation": "portrait",
