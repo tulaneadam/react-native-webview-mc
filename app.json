@@ -7,12 +7,12 @@
       "bundleIdentifier": "com.startupsystems.moviecriticapp4",
       "buildNumber": "1.0.0",
       "infoPlist": {
-    
+    "NSMicrophoneUsageDescription": "This app uses the microphone to allow users to have speech to text functionality to enter data in the application."
       }
     },
     "android": {
       "package": "com.startupsystems.moviecriticapp4",
-      "permissions": [  ],
+      "permissions": [ "RECORD_AUDIO" ],
       "versionCode": 4
     },
     "orientation": "portrait",
@@ -33,4 +33,3 @@
     }
   }
 }
-
